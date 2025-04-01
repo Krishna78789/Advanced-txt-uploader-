@@ -597,7 +597,7 @@ async def upload(bot: Client, m: Message):
             #url = f"https://madxapi-d0cbf6ac738c.herokuapp.com/{id}/master.m3u8?token={raw_text4}"
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
+             url = f"https://maxstudy.site/app.php?id={id}"
             
         
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
